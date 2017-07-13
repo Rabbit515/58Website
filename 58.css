@@ -1,0 +1,1595 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	font-family: arial;
+}
+
+.top-bar {
+    position: relative;
+    z-index: 9999;
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    background: #fff;
+    color: #555;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.bar-left {
+    float: left;
+    word-spacing: 1px;
+    height: 36px;
+    line-height: 36px;
+   
+}
+
+
+.bar-left h2 {
+    display: inline;
+    font-size: 14px;
+    color: #ff552e;
+    float: left;
+  	margin-left: 80px;
+}
+.weather {
+    float: left;
+    cursor: pointer;
+    margin-left: 15px;
+    position: relative;
+    word-spacing: 0;
+    border: 1px solid #fff;
+    border-bottom: none;
+    padding: 0 10px;
+}
+.top-bar .bar-left .ipconfig a{
+	color: #666;
+	text-decoration: none;
+	cursor: pointer;
+	font-size: 12px;
+}
+.top-bar .bar-left .ipconfig a:hover{
+	color: #f40;
+}
+
+.top-bar .weather .wt img{
+	margin-top: 10px;
+	margin-left: 15px;
+	display: inline-block;
+	float: left;
+}
+.top-bar .weather .wt em{
+	font-size: 12px;
+	font-style: normal
+}
+.top-bar .weather .today{
+	background-color: #73d538;
+	font-size: 12px;
+    margin: 0 0 0 10px;
+    padding: 0 2px;
+    display: inline-block;
+    border-radius: 3px;
+    display: inline;
+    zoom: 1;
+    line-height: 16px;
+    color: #fff;
+}
+
+
+.bar-right a:hover{
+	color: #f40;
+}
+.login a {
+    color: #666;
+    margin-left: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 12px;
+
+}
+.bar-right .login {
+	float: left ;
+	margin-left: 315px;
+	display: inline-block;
+	
+}
+.bar-right .login a{
+	padding: 0 10px 0 13px;
+}
+.img-top{
+	margin-left: 83px;
+}
+
+#headerinside {
+    height: 84px;
+    position: relative;
+}
+
+div {
+    display: block;
+}
+#headerinside #biglogo{
+	margin: 14px 0 0 120px;
+}
+#headerinside a #pic{
+	float: left;
+	position: absolute;
+	left: 265px;
+	top:15px;
+}
+
+#saerkey {
+    height: 38px;
+    width: 484px;
+    line-height: 38px;
+    padding-left: 34px;
+   /* float: left;*/
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    border-width: 2px 0px 2px 2px;
+    border-style: solid solid solid;
+    border-color: rgb(255, 85, 46) rgb(255, 85, 46) rgb(255, 85, 46);
+    border-right: 0px;
+    background-position: 10px -105px;
+    margin-left: 445px;
+    margin-top: -43px;
+    
+}
+
+
+#keyword {
+    width: 100%;
+    font-size: 14px;
+    color: rgb(204, 204, 204);
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    height: 38px;
+    line-height: 38px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    overflow: hidden;
+}
+
+input {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em 0em 0em 0em;
+    font: 13.3333px Arial;
+}
+
+input.btnall {
+    background: rgb(255, 85, 46);
+}
+
+input.btnal2, input.btnall {
+    position: relative;
+    height: 42px;
+    line-height: 40px;
+    width: 100px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border-radius: 0px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    overflow: hidden;
+    margin-left: 960px;
+    top:-42px;
+}
+#fabu {
+	top:16px;
+    right: 132px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 140px;
+    height: 42px;
+    line-height: 42px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 85, 46);
+    position: absolute;
+    text-align: center;
+    cursor: pointer;
+}
+#hotwords {
+    position: absolute;
+    top: 58px;
+    left: 448px;
+    height: 32px;
+    width: 620px;
+    line-height: 32px;
+    overflow: hidden;
+
+    
+}
+#hotwords a {
+    margin-right: 10px;
+    color: rgb(170, 170, 170);
+    float: left;
+}
+#hotwords a:hover{
+	color: #f40;
+	text-decoration: underline;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 12px;
+
+}
+ .xinxi a{
+	float: left;
+	position: relative;
+	left: 1130px;
+	top:-33px;
+    margin-right: 10px;
+    color: rgb(170, 170, 170);
+    float: left;
+}
+#homeNav {
+    margin: 0;
+    padding: 0 36px;
+}
+ul{
+    display: inline-block;
+}
+.navcon{
+    float: left;
+
+}
+.navcon .navBg {
+    width: 35px;
+    background-color: #ff552e;
+    border-radius: 2px 2px 2px 0;
+    border-color: #ff552e;
+    border-bottom: 2px solid #ff552e;
+
+}
+.navcon  {
+    width: 1190px;
+    height: 34px;
+    margin-top: 5px;
+    font-size: 16px;
+    line-height: 34px;
+    border-bottom: 2px solid #ff552e;
+
+}
+
+.navcon li{
+    float: left;
+}
+.navcon li a{
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.navcon .navWit {
+    color: #fff;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+.moBIco {
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 12px;
+    position: absolute;
+    background: url(http://img.58cdn.com.cn/ui6/index/58app.gif?v=1) no-repeat;
+}
+#wubaApp .hasBox {
+    padding-left: 14px;
+}
+.navcon .navRed {
+    color: #ff552e;
+    font-weight: bold;
+    margin-left:  10px;
+}
+
+.hasBox {
+    display: block;
+    height: 33px;
+    line-height: 32px;
+    border: 1px solid #fff;
+    border-bottom: none;
+    text-align: center;
+    padding-right: -6px;
+    width: 100px;
+}
+.navcon li i {
+    width: 10px;
+    height: 6px;
+    top: 14px;
+    right: 8px;
+    position: absolute;
+    font-size: 0;
+    overflow: hidden;
+    background-position: -20px -6px;
+    
+}
+.navcon li i {
+    background: url(http://img.58cdn.com.cn/ui6/index/minico.png?v=6) no-repeat;
+}
+
+.navcon .navHov a:hover{
+   
+    background-color: #f40;
+    color: #fff;
+    text-align: center;
+}
+
+.navcon .navGrey {
+    color: #888;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.navcon .conGrey-m {
+    color: #888;
+    font-size: 12px;
+    position: absolute;
+    margin-left: 160px;
+}
+.navcon   a:hover{
+    color: #f40;
+}
+
+.icoNav {
+    background-color: #fff;
+    overflow: hidden;
+    width: 848px;
+    margin-bottom: 8px;
+    height: 122px;
+}
+.topIco {
+    display: block;
+    width: 100%;
+    height: 64px;
+    font-size: 14px;
+    color: #555;
+}
+.article {
+    width: 1190px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+/*.mainWrap {
+    overflow: hidden;
+    width: 1190px;
+}*/
+div{
+    display: block;
+}
+.leftSide .icoNav{
+    margin-left: -90px;
+}
+.leftSide .icoNav li a {
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.topIco i {
+    height: 42px;
+    width: 42px;
+    margin: 0 auto;
+    margin-bottom: 8px;
+    display: block;
+}
+.topIco i {
+    background-image: url(http://img.58cdn.com.cn/ui6/index/NavIcon.png?v=4);
+    background-repeat: no-repeat;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+#zpNav i {
+    background-position: 0 -224px;
+}
+.leftSide li{
+    float: left;
+}
+.leftSide .icoNav li a:hover{
+    color :#f40;
+    
+}
+.leftSide .icoNav  em a:hover{
+    color:#f40;
+    text-decoration: underline;
+}
+
+.leftSide .icoNav li a b{
+    margin-left: 125px;
+    font-weight: normal;
+}
+.icoNav li em {
+    display: block;
+    height: 28px;
+    line-height: 38px;
+    font-style: normal;
+    margin-left: 90px;
+}
+
+.icoNav li em a {
+    font-size: 12px;
+    color: #0E8ED8;
+    padding: 0 3px;
+   
+}
+.icoNav #zpNav em{
+    margin-left: 110px;
+}
+.icoNav #fcNav{
+    margin-left: -65px;
+}
+.icoNav #escNav{
+    margin-left: -55px;
+}
+.icoNav #escNav b{
+    margin-left: 120px;
+
+}
+.icoNav #escNav i {
+    background-position: 0 -54px;
+}
+.icoNav #esNav i {
+    background-position: 0 -111px;
+}
+.icoNav #esNav{
+    margin-left: -75px;
+}
+ .icoNav #esNav b{
+    margin-left: 115px;
+}
+.icoNav  #esNav em{
+    margin-left: 100px;
+}
+.icoNav #cwNav i {
+    background-position: 0 -168px;
+}
+.icoNav  #cwNav{
+    margin-left: -65px;
+}
+ .icoNav #cwNav em{
+    margin-left: 95px;
+}
+.icoNav #bdswNav i {
+    background-position: 0 -338px;
+}
+.icoNav #bdswNav{
+    margin-left: -60px;
+}
+.icoNav #bdswNav b{
+    margin-left: 115px;
+}
+#bdfwNav{
+    width: 900px;
+}
+
+ #bdfwNav i{
+    background-image: url(http://img.58cdn.com.cn/ui6/index/NavIcon.png?v=4);
+    background-repeat: no-repeat;
+    background-position: 0 -280px;
+
+}
+.icoNav1 li em a {
+    font-size: 12px;
+    color: #0E8ED8;
+    /*padding: 0 3px;*/
+    font-style: normal;
+   
+}
+.leftSide .icoNav1 li a:hover{
+    color: #f40;
+
+}
+.leftSide .icoNav1 li em a:hover{
+    text-decoration: underline;
+}
+.leftSide .icoNav1 li a {
+    text-decoration: none;
+    cursor: pointer;
+
+}
+.leftSide .icoNav1 li b{
+    color: #555;
+    font-weight: normal;
+    margin-left: -3px;
+}
+.leftSide .icoNav1 li {
+    margin-left: 730px;
+    margin-top: -148px;
+}
+.leftSide .icoNav1 li i{
+    margin-left: 2px;
+}
+.leftSide .icoNav1 li em{
+    position: absolute;
+    margin-top: 11px;
+    margin-left: -10px;
+}
+
+.appTil {
+    float: right;
+    height: 44px;
+    line-height: 44px;
+    /*margin-bottom: 5px;*/
+    font-size: 16px;
+    color: #ff552e;
+    margin-right: 280px;
+    margin-top:-145px;
+}
+
+/*.swipeDot li .active {
+    background-position: 0 -877px;
+}
+.swipeDot li {
+    float: left;
+    width: 12px;
+    margin: 0 2px;
+    height: 12px;
+    background-position: 0 -936px;
+    cursor: pointer;
+    background: url(http://img.58cdn.com.cn/ui6/index/minico.png?v=6) no-repeat;
+}
+
+*/
+
+
+.appIco li {
+    float: left;
+    /*height: 64px;
+    width: 60px;*/
+    color: #aaa;
+    text-align: center;
+    cursor: default;
+    position: relative;
+}
+#appIco58-1 i {
+    
+    background-position: 2px -398px;
+    margin-left: 870px;
+    margin-top: -115px;
+}
+#appIco58-1 span{
+
+    position: relative;
+    display: inline;
+    margin-left: 860px;
+    font-size: 12px;
+}
+.appIco i {
+    display: block;
+    width: 40px;
+    height: 38px;
+    margin: 0 10px 6px 10px;
+    background-image: url(http://img.58cdn.com.cn/ui6/index/NavIcon.png?v=4);
+    background-repeat: no-repeat;
+}
+#appIco58-2 i {
+    background-position: 2px -566px;
+    margin-left: 930px;
+    margin-top: -115px;
+}
+#appIco58-2 span{
+    margin-top: -2px;
+    position: relative;
+    display: inline;
+    margin-left: 924px;
+    font-size: 12px;
+}
+#appIco58-3 i {
+    background-position: 2px -454px;
+    margin-left: 990px;
+    margin-top: -115px;
+}
+#appIco58-3 span{
+    margin-top: -2px;
+    position: relative;
+    display: inline;
+    margin-left: 982px;
+    font-size: 12px;
+}
+#appIco58-4 i {
+    background-position: 2px -510px;
+    margin-left: 1050px;
+    margin-top: -115px;
+}
+#appIco58-4 span{
+    margin-top: -2px;
+    position: relative;
+    display: inline;
+    margin-left: 1040px;
+    font-size: 12px;
+}
+#appIco58-5 i {
+    background-position: 2px -623px;
+    margin-left: 1110px;
+    margin-top: -115px;
+}
+#appIco58-5 span{
+    margin-top: -2px;
+    position: relative;
+    display: inline;
+    margin-left: 1106px;
+    font-size: 12px;
+}
+.cbhg {
+   /* height: 1474px;*/
+}
+.cbp1, .cbp2 {
+    margin-right: 8px;
+    display: inline;
+}
+.colWrap .board {
+    border-bottom: 8px solid #f8f8f8;
+    padding: 0 0 12px 20px;
+}
+.mainWrap .margT0 {
+    margin-top: 0;
+}
+.board h2 {
+    border-bottom: 1px solid #f3f3f3;
+    height: 37px;
+    padding-top: 8px;
+    margin: 2px 20px 4px 0;
+    font-size: 16px;
+    color: #ff552e;
+    font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.board h2 a {
+    position: absolute;
+    font-size: 16px;
+    color: #ff552e;
+    font-weight: bold;
+    margin-top: -50px;   
+}
+.board h2 a:hover{
+    text-decoration: underline;
+}
+.board a {
+    line-height: 30px;
+    font-size: 14px;
+    display: inline-block;
+    color: #0E8ED8;
+}
+.board em a:hover{
+    color: #f40;
+    text-decoration: underline;
+}
+.board .fw a{
+    position: absolute;
+    
+    margin-top: -50px;
+}
+.board em a{
+    position: absolute;
+    font-style: normal;
+    margin-top: -40px;
+}
+.colWrap .board i {
+    font-size: 12px;
+    display: inline-block;
+    color: #DEE3E7;
+    margin: 0 15px 0 15px;
+}
+.board  a:hover{
+    color: #ff552e;
+    text-decoration: underline;
+}
+.board .qz{
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 25px;
+}
+.board .esf {
+    position: absolute;
+    margin-top: -30px;
+}
+.board .xf{
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 94px;
+}
+.board .spcz{
+    margin-top: -20px;
+}
+.board .spcs{
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 94px;
+}
+.board .syzr{
+    position: absolute;
+    margin-top: -10px;
+}
+.board .xzl{
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 95px;
+}
+.board .apart{
+    position: absolute;
+    margin-top: 0px;
+}
+.board .cf{
+     position: absolute;
+     margin-top: 10px;
+}
+.cbp2 .board h2{
+    margin-left: 215px;
+    margin-top: -196px;
+}
+.cbp2 .board span a{
+    position: absolute;
+    color: #ff552e;
+    font-size: 12px;
+    margin-left: 295px;
+    margin-top: -93px;
+}
+.board .essj{
+    position: absolute;
+    margin-left: 218px;
+    margin-top: -50px;
+}
+.board .apple{
+    position: absolute;
+    margin-left: 310px;
+    margin-top: -50px;
+}
+.board .sam{
+    position: absolute;
+    margin-left: 315px;
+    margin-top: -50px;
+}
+.board .rice{
+    position: absolute;
+    margin-left: 320px;
+    margin-top: -50px;
+}
+.board .taishi{
+    position: absolute;
+    margin-left: 218px;
+    margin-top: -40px;
+}
+.board .screen{
+    position: absolute;
+    margin-left: 310px;
+    margin-top: -40px;
+}
+.board .strong{
+    position: absolute;
+    margin-left: 330px;
+    margin-top: -40px;
+}
+.board .note{
+    position: absolute;
+    margin-left: 218px;
+    margin-top: -30px;
+}
+.board .mac{
+    position: absolute;
+    margin-left: 310px;
+    margin-top: -30px;
+}
+.board .think{
+    position: absolute;
+    margin-left: 345px;
+    margin-top: -30px;
+}
+.board .pingban{
+    position: absolute;
+    margin-left: 218px;
+    margin-top: -20px;
+}
+.board .sung{
+    position: absolute;
+    margin-left: 310px;
+    margin-top: -20px;
+}
+.board .pad{
+    position: absolute;
+    margin-left: 316px;
+    margin-top: -20px;
+}
+.board .shuma{
+    position: absolute;
+    margin-left: 218px;
+    margin-top: -10px;
+}
+.board .camera{
+    position: absolute;
+    margin-left: 310px;
+    margin-top: -10px;
+}
+.board .game{
+    position: absolute;
+    margin-left: 314px;
+    margin-top: -10px;
+}
+.board .phone{
+    position: absolute;
+    margin-left: 218px;
+    margin-top: 0px;
+}
+.board .tongxun{
+    position: absolute;
+    margin-left: 310px;
+    margin-top: 0px;
+}
+.board .motor{
+    position: absolute;
+    margin-left: 218px;
+    margin-top: 20px;
+    color: #ff552e;
+}
+.board .ymh{
+    position: absolute;
+    margin-left: 310px;
+    margin-top: 20px;
+}
+.board .bt{
+    position: absolute;
+    margin-left: 325px;
+    margin-top: 20px;
+}
+.board .cycle{
+    position: absolute;
+    margin-left: 218px;
+    margin-top: 30px;
+}
+.board .ddc{
+    position: absolute;
+    margin-left: 310px;
+    margin-top: 30px;
+}
+.cbp3 .board h2{
+    margin-left: 465px;
+    margin-top: -214px;
+}
+.cbp3 .board span a{
+    position: absolute;
+    color: #ff552e;
+    font-size: 12px;
+    margin-left: 80px;
+    margin-top: -50px;
+    font-weight: normal;
+}
+.cbp3 .board b  a{
+    position: absolute;
+    color: #ff552e;
+    font-size: 12px;
+    margin-left: 140px;
+    margin-top: -50px;
+    font-weight: normal;
+}
+.cbp3 .board p  a{
+    position: absolute;
+    color: #ff552e;
+    font-size: 12px;
+    margin-left: 200px;
+    margin-top: -50px;
+    font-style: normal;
+    font-weight: normal;
+}
+.col3 .yingjie{
+    position: absolute;
+    margin-left: 465px;
+    margin-top: -50px;
+}
+.col3 .baochizhu{
+    position: absolute;
+    margin-left: 580px;
+    margin-top: -51px;
+}
+.col3 .taobao{
+    position: absolute;
+    margin-left: 695px;
+    margin-top: -51px;
+}
+.board h4 a {
+    color: rgb(170, 170, 170);
+    font-size: 12px;
+    line-height: 12px;
+    position: absolute;
+    margin-top: -12px;
+    margin-left: 465px;
+    font-weight: normal;
+}
+.board h5 a {
+    color: rgb(170, 170, 170);
+    font-size: 12px;
+    line-height: 12px;
+    position: absolute;
+    margin-top: -12px;
+    margin-left: 530px;
+    font-weight: normal;
+}
+.board .wanyuan{
+    position: absolute;
+    margin-left: 465px;
+    margin-top: 6px;
+}
+.board .jizhao{
+    position: absolute;
+    margin-left: 580px;
+    margin-top: 6px;
+}
+.board .mingqi{
+    position: absolute;
+    margin-left: 660px;
+    margin-top: 6px;
+}
+.board .zhangxin{
+    position: absolute;
+    margin-left: 465px;
+    margin-top: 16px;
+}
+.board .remen{
+    position: absolute;
+    margin-left: 580px;
+    margin-top: 16px;
+}
+.board .biye{
+    position: absolute;
+    margin-left: 660px;
+    margin-top: 16px;
+}
+.board .rezhao{
+    position: absolute;
+    margin-top: 36px;
+}
+.board .sell{
+    position: absolute;
+    margin-left: 465px;
+    margin-top: 54px;
+}
+.board .kefu{
+    position: absolute;
+    margin-left: 555px;
+    margin-top: 54px;
+}
+.board .driver{
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 54px;
+}
+.board .seller{
+    position: absolute;
+    margin-left: 652px;
+    margin-top: 54px;
+}
+.board .wenyuan{
+    position: absolute;
+    margin-left: 465px;
+    margin-top: 65px;
+}
+.board .zhuli{
+    position: absolute;
+    margin-left: 555px;
+    margin-top: 65px;
+}
+.board .pugong{
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 65px;
+    color: rgb(255, 101, 70);
+}
+.board .daogouyuan{
+    position: absolute;
+    margin-left: 652px;
+    margin-top: 65px;
+}
+.board .qiantai{
+    position: absolute;
+    margin-left: 465px;
+    margin-top: 75px;
+}
+.board .bianji{
+    position: absolute;
+    margin-left: 555px;
+    margin-top: 75px;
+}
+.board .diangong{
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 75px;
+}
+.board .money{
+    position: absolute;
+    margin-left: 652px;
+    margin-top: 75px;
+}
+.board .kuaiji{
+    position: absolute;
+    margin-left: 465px;
+    margin-top: 85px;
+}
+.board .youjiao{
+    position: absolute;
+    margin-left: 555px;
+    margin-top: 85px;
+}
+.board .jigong{
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 85px;
+}
+.board .lihuoyuan{
+    position: absolute;
+    margin-left: 652px;
+    margin-top: 85px;
+}
+.cbp4 .board h2 a{
+    position: absolute;
+    margin-left: 845px;
+    margin-top: -250px;
+}
+.cbp4 .board h2 span a{
+    font-size: 12px;
+    margin-left: 955px;
+    margin-top: -250px;
+    font-weight: normal;
+
+}
+.cbp4 .board .col4 h2 a{
+    margin-top: -255px;
+}
+.cbp4 .board .col4 h2 span a{
+    position: absolute;
+    margin-left: 920px;
+}
+.board .banjia{
+    position: absolute;
+    margin-left: 847px;
+    margin-top: -255px;
+}
+.board .baomu{
+    position: absolute;
+    margin-left: 922px;
+    margin-top: -255px;
+}
+.board .zhongdiangong{
+    position: absolute;
+    margin-left: 967px;
+    margin-top: -255px;
+}
+.board .baojie{
+    position: absolute;
+    margin-left: 1007px;
+    margin-top: -255px;
+}
+.board .shutong{
+    position: absolute;
+    margin-left: 847px;
+    margin-top: -243px;
+}
+.board .food{
+    position: absolute;
+    margin-left: 922px;
+    margin-top: -243px;
+}
+.board .present{
+    position: absolute;
+    margin-left: 926px;
+    margin-top: -243px;
+}
+.board .life{
+    position: absolute;
+    margin-left: 932px;
+    margin-top: -243px;
+}
+.board .wash{
+    position: absolute;
+    margin-left: 973px;
+    margin-top: -243px;
+}
+.board .huishou{
+    position: absolute;
+    margin-left: 847px;
+    margin-top: -231px;
+}
+.board .flower{
+    position: absolute;
+    margin-left: 922px;
+    margin-top: -231px;
+}
+.board .white{
+    position: absolute;
+    margin-left: 968px;
+    margin-top: -231px;
+}
+.board .zuche{
+    position: absolute;
+    margin-left: 1009px;
+    margin-top: -231px;
+}
+.board .fwwx{
+    position: absolute;
+    margin-left: 846px;
+    margin-top: -220px;
+}
+.board .jjwx{
+    position: absolute;
+    margin-left: 922px;
+    margin-top: -220px;
+}
+.board .jdwx{
+    position: absolute;
+    margin-left: 968px;
+    margin-top: -220px;
+    color: rgb(255, 101, 70);
+}
+.board .sjwx{
+    position: absolute;
+    margin-left: 1008px;
+    margin-top: -220px;
+}
+.board .dnwx{
+    position: absolute;
+    margin-left: 846px;
+    margin-top: -209px;
+}
+.board .kshs{
+    position: absolute;
+    margin-left: 922px;
+    margin-top: -209px;
+}
+.board .ktwx{
+    position: absolute;
+    margin-left: 968px;
+    margin-top: -209px;
+}
+.board .ktyj{
+    position: absolute;
+    margin-left: 1008px;
+    margin-top: -209px;
+}
+.toolKits {
+    width: 1190px;
+    height: 246px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px 0px;
+    overflow: hidden;
+}
+.toolKits h2 {
+    position: absolute;
+    height: 44px;
+    line-height: 44px;
+    font-size: 16px;
+    color: rgb(255, 85, 46);
+    padding-left: 18px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(243, 243, 243);
+    margin-top: -160px;
+}
+.toolCol {
+    float: left;
+    width: 217px;
+    height: 168px;
+    border-right: 1px solid rgb(243, 243, 243);
+    padding: 0px 10px;
+}
+div {
+    display: block;
+}
+.toolCol h6 {
+    position: absolute;
+    font-size: 14px;
+    font-weight: normal;
+    padding-left: 10px;
+    color: rgb(85, 85, 85);
+    margin-top: -100px;
+}
+.toolUp {
+    margin-bottom: 12px;
+}
+#ico1-1 {
+    position: absolute;
+    background-position: 24px 8px;
+    margin-top: -60px;
+}
+#ico1-2 {
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 75px;
+    background-position: 24px -51px;
+}
+#ico1-3 {
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 150px;
+    background-position: 24px -110px;
+}
+.toolCol a {
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    background-image: url("http://img.58cdn.com.cn/ui6/index/ToolsIcon.png?v=2");
+    width: 72px;
+    height: 20px;
+    padding-top: 42px;
+    color: rgb(170, 170, 170);
+    background-repeat: no-repeat;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+#ico1-4 {
+    background-position: 24px -168px;
+}
+#ico1-5 {
+    background-position: 24px -226px;
+}
+#ico1-6 {
+    position: absolute;
+    margin-left: 0px;
+    background-position: 24px -285px;
+}
+#ico2-1 {
+    position: absolute;
+    background-position: 24px -345px;
+    margin-top: -60px;
+}
+#ico2-2 {
+    position: absolute;
+    background-position: 24px -404px;
+    margin-top: -60px;
+    margin-left: 75px;
+}
+#ico2-3 {
+    position: absolute;
+    background-position: 24px -464px;
+    margin-top: -60px;
+    margin-left: 150px;
+}
+#ico2-4 {
+    background-position: 24px -520px;
+}
+#ico2-5 {
+    background-position: 24px -579px;
+}
+#ico2-6 {
+    position: absolute;
+    background-position: 24px -638px;
+    margin-left: 0px;
+}
+#ico3-1 {
+    background-position: 24px -700px;
+    position: absolute;
+    margin-top: -60px;
+}
+#ico3-2 {
+    background-position: 24px -759px;
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 75px;
+}
+#ico3-3 {
+    background-position: 24px -818px;
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 150px;
+}
+#ico3-4 {
+    background-position: 24px -874px;
+}
+#ico3-5 {
+    background-position: 24px -934px;
+}
+#ico3-6 {
+    background-position: 24px -992px;
+    position: absolute;
+    margin-left: 0px;
+}
+#ico4-1 {
+    background-position: 24px -1054px;
+    position: absolute;
+    margin-top: -60px;
+}
+#ico4-2 {
+    background-position: 24px -1113px;
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 75px;
+}
+#ico4-3 {
+    background-position: 24px -1172px;
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 150px;
+}
+#ico4-4 {
+    background-position: 24px -1228px;
+}
+#ico4-5 {
+    background-position: 24px -1288px;
+}
+#ico4-6 {
+    background-position: 24px -1347px;
+    position: absolute;
+    margin-left: 0px;
+}
+#ico5-1 {
+    background-position: 24px -1408px;
+    position: absolute;
+    margin-top: -60px;
+}
+#ico5-2 {
+    background-position: 24px -1467px;
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 75px;
+}
+#ico5-3 {
+    background-position: 24px -1526px;
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 150px;
+}
+#ico5-4 {
+    background-position: 24px -1585px;
+}
+#ico5-5 {
+    background-position: 24px -1700px;
+}
+.wide{
+    position: absolute;
+    margin-top: -80px;
+}
+.footer {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+div {
+    display: block;
+}
+#upWrap {
+    width: 1190px;
+    position: relative;
+    padding-bottom: 32px;
+    margin: 0px auto;
+    border-bottom: 1px solid rgb(238, 238, 238);
+}
+#fotLogo {
+    display: block;
+    float: left;
+    width: 200px;
+    height: 150px;
+    margin-top: -25px;
+    margin-left:20px;
+}
+#upWrap .infoTil {
+    font-size: 16px;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 30px;
+}
+#upWrap li a, #wxfoot span {
+    position: relative;
+    font-size: 12px;
+    color: rgb(170, 170, 170);
+    line-height: 30px;
+    top: -10px;
+    margin-left: 30px;
+}
+#upWrap .info .infoTil{
+    position: absolute;
+    margin-left: 140px;
+}
+#upWrap .info li a{
+    /*position: absolute;*/
+    margin-left: 140px;
+}
+#upWrap .guanzhu .infoTil{
+    position: absolute;
+    margin-left: 140px;
+    margin-top: -80px;
+}
+#upWrap .guanzhu li a{
+    
+    margin-left: 140px;
+    top: -40px;
+}
+#upWrap .guanyu .infoTil{
+    position: absolute;
+    margin-left: 140px;
+    margin-top: -80px;
+}
+#upWrap .guanyu li a{
+    
+    margin-left: 140px;
+    top: -40px;
+}
+#upWrap .fuwu .infoTil{
+    position: absolute;
+    margin-left: 140px;
+    margin-top: -20px;
+}
+#upWrap .fuwu li a{
+    
+    margin-left: 140px;
+    top: 20px;
+}
+#flink {
+    width: 1146px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 20px;
+    /*height: 40px;
+    line-height: 40px;*/
+    overflow: hidden;
+    color: #aaa;
+    font-size: 12px;
+
+}
+#linkCont li {
+    width: 1080px;
+    height: 20px;
+    overflow: hidden;
+}
+#flink a {
+    color: #aaa;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+ #linkCont span {
+    margin: 0 10px;
+    color: #eee;
+}
+#linkCont li {
+    position: relative;
+   left: 70px;
+   top: -14px;
+}
+#downWrap {
+    height: 14px;
+    line-height: 14px;
+    text-align: center;
+    margin: 16px 0 24px 0;
+}
+#downWrap span {
+    margin: 0 6px;
+    color: #eee;
+}
+#downWrap em, #downWrap a {
+    font-size: 12px;
+    color: #5c5c5c;
+    display: inline-block;
+}
+em {
+    
+    font-style: normal;
+}
+.fotBtmIcon {
+    height: 58px;
+    text-align: center;
+}
+.fotBtmIcon a {
+    display: inline-block;
+    height: 38px;
+    margin-right: 30px;
+    background: url(http://img.58cdn.com.cn/ui6/index/footbtmicon.png) no-repeat;
+}
+#fotBm-1 {
+    width: 173px;
+    background-position: 0 0;
+}
+#fotBm-2 {
+    width: 168px;
+    background-position: 0 -59px;
+}
+#fotBm-3 {
+    width: 118px;
+    background-position: 0 -118px;
+}
+#fotBm-4 {
+    width: 141px;
+    background-position: 0 -177px;
+}
+#fotBm-5 {
+    width: 129px;
+    background-position: 0 -236px;
+}
+#rightSusp {
+    position: fixed;
+    z-index: 100;
+    bottom: 36px;
+    right: 0;
+    width: 50px;
+    background-color: #fff;
+    border: 1px solid #eee;
+}
+#micoNew {
+    height: 80px;
+    text-align: center;
+}
+.micoNewTxt {
+    font-size: 14px;
+    color: #ff552e;
+    font-weight: 400;
+    height: 30px;
+    line-height: 30px;
+}
+.phoneIcon {
+    position: absolute;
+    width: 50px;
+    height: 45px;
+    top: 30px;
+}
+.phoneIcon{
+    background: url(http://img.58cdn.com.cn/ui6/index/minico.png?v=6) no-repeat;
+    background-position: 14px -190px;
+}
+#backOld {
+    font-size: 14px;
+    padding: 10px;
+    color: #9A9A9A;
+}
+ #backOld {
+    display: block;
+    border-top: 1px solid #eee;
+    text-align: center;
+    height: 34px;
+    position: relative;
+    top:0px;
+}
+#rightSusp a:hover{
+    color: #f40;
+}
+#feedBack {
+    background: url(http://img.58cdn.com.cn/ui6/index/minico.png?v=6) no-repeat;
+    background-position: 14px -287px;
+}
+#goTop {
+    background: url(http://img.58cdn.com.cn/ui6/index/minico.png?v=6) no-repeat;
+    background-position: 14px -287px;
+    background-position: 14px -242px;
+    cursor: pointer;
+}
+#feedBack, #goTop {
+    position: relative;
+    top: -8px;
+
+    color: #fff;
+    padding: 8px 10px;
+}
+#feedBack, #goTop, #backOld {
+    display: block;
+    border-top: 1px solid #eee;
+    text-align: center;
+    height: 34px;
+}
+#feedBack, #goTop {
+    color: rgb(255, 255, 255);
+    padding: 8px 10px;
+}
